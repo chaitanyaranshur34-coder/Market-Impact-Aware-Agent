@@ -8,7 +8,7 @@
 
 When institutional investors execute large block orders, naive execution algorithms (such as TWAP) often suffer from significant adverse selection and self-induced market impact. By repeatedly walking thin order books, these baseline strategies drive prices against themselves, inflating execution costs.
 
-This project implements a **Market-Impact-Aware Trading Agent** within the [ABIDES]([https://github.com/abides-sim/abides-core](https://github.com/jpmorganchase/abides-jpmc-public.git)) framework. By dynamic self-impact measurement, order-book depth caps, and opportunistic price-tilt mechanisms, the agent dynamically paces order slices to measurably reduce slippage against the initial arrival price.
+This project implements a **Market-Impact-Aware Trading Agent** within the [ABIDES](https://github.com/abides-sim/abides-core](https://github.com/jpmorganchase/abides-jpmc-public.git)) framework. By dynamic self-impact measurement, order-book depth caps, and opportunistic price-tilt mechanisms, the agent dynamically paces order slices to measurably reduce slippage against the initial arrival price.
 
 ---
 
